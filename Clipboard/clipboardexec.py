@@ -20,7 +20,7 @@ while True:
         if status == 0:
             with open("out", 'r') as fo:
                 odata = fo.read()
-            msg.setText("="*len(odata) + "\n"+ odata + "="*len(odata))
+            msg.setText("="*len(odata) + "\n" + odata + "="*len(odata))
             msg.setFocus()
             msg.setWindowTitle("Output")
             msg.exec()
