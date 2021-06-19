@@ -1,8 +1,6 @@
 from PyQt5.QtWidgets import QApplication, QMessageBox
 import clipboard
-import os
-import sys
-import time
+import os, sys, time
 
 clear = ""
 clipboard.copy(clear)
