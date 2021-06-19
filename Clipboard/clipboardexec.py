@@ -19,7 +19,6 @@ while True:
             cbpy.write(data)
         status = os.system("python3 clippy.py > out")
         clipboard.copy(clear)
-        #print(~status)
         if status == 0:
             with open("out", 'r') as fo:
                 odata = fo.read()
